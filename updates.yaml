@@ -2,8 +2,8 @@ website: "https://telespace.site/"
 telegram_channel: "https://t.me/usernamebingo"
 telegram_support: "https://t.me/usernamebingo"
 account_stores: 
-  - send_rock: "https://t.me/usernamebingo"
-  - true_store: "https://t.me/usernamebingo"
+  - "Send Rock": "https://t.me/usernamebingo"
+  - "True Store": "https://t.me/usernamebingo"
 
 en:
   updates:
