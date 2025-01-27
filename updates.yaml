@@ -1,0 +1,20 @@
+en:
+  updates:
+    - version: "3.0.0"
+      date: "2025-01-27"
+      fixed:
+        - "A large number of errors and problems with the application have been fixed"
+      changes:
+        - "The design has been updated and improved"
+        - "The application core has been updated"
+        - "New features have been added"
+ru:
+  updates:
+    - version: "3.0.0"
+      date: "2025-01-27"
+      fixed: 
+        - "Исправлено большое количество ошибок и проблем с работой приложения"
+      changes:
+        - "Обновлен и улучшен дизайн"
+        - "Обновлено ядро приложения"
+        - "Добавлены новые функции"
