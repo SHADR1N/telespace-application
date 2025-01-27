@@ -1,3 +1,10 @@
+website: "https://telespace.site/"
+telegram_channel: "https://t.me/usernamebingo"
+telegram_support: "https://t.me/usernamebingo"
+account_stores: 
+  - "https://t.me/usernamebingo"
+  - "https://t.me/usernamebingo"
+
 en:
   updates:
     - version: "3.0.0"
