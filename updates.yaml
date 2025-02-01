@@ -52,6 +52,9 @@ en:
       - "Added patch notes section for viewing updates"
       - "Removed launcher and implemented in-app auto-updates"
       - "Added links to our resources"
+      - "Added saving logs to file"
+      - "Added multi-language support for saving logs"
+      - "Added auto-opening of logs"
 
 ch:
   updates:
@@ -99,7 +102,9 @@ ch:
       - "新增更新日志查看功能"
       - "移除启动器，实现应用内自动更新"
       - "新增官方资源链接"
-
+      - "添加了将日志保存到文件的功能"
+      - "添加了对保存日志的多语言支持"
+      - "添加了日志的自动打开功能"
 
 ru:
   updates:
@@ -147,4 +152,7 @@ ru:
         - "Добавили patch note приложения для просмотра обновлений"
         - "Убрали лаунчер и реализовали авто-обновление из приложения"
         - "Добавлены ссылки на наши ресурсы"
+        - "Добавлено сохранение логов в файл"
+        - "Добавлена поддержжка мульти-язычности для сохранения логов"
+        - "Добавлено авто-открытие логов"
         
