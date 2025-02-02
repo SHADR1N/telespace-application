@@ -8,6 +8,22 @@ account_stores:
 
 en:
   updates:
+  - version: "3.0.2"
+    date: "2025-02-02"
+    fixed:
+      - "Fixed launcher for standalone application updates"
+      - "Fixed widget size (Change photo) that caused text overflow"
+      - "Fixed text for widget (Change full name)"
+      - "Fixed logic for switching groups (Proxy Manager / Account Manager)"
+    changes:
+      - "Launcher removed from the build"
+      - "Auto-opening logs is now 'Enabled' by default"
+      - "Added automatic proxy country detection"
+      - "Added proxy country flag in (Proxy Manager)"
+      - "Added authentication status messages"
+      - "Added the ability to run tasks on multiple accounts from the context menu (Account Manager)"
+      - "Reworked widget (Dropdown with change option)"
+
   - version: "3.0.1"
     date: "2025-02-01"
     fixed: 
@@ -56,25 +72,24 @@ en:
       - "Added multi-language support for saving logs"
       - "Added auto-opening of logs"
 
+ch:
+  updates:
   - version: "3.0.2"
     date: "2025-02-02"
     fixed:
-      - "Fixed launcher for standalone application updates"
-      - "Fixed widget size (Change photo) that caused text overflow"
-      - "Fixed text for widget (Change full name)"
-      - "Fixed logic for switching groups (Proxy Manager / Account Manager)"
+      - "修复了独立更新应用程序的启动器"
+      - "修复了小部件大小（更改照片）导致文本溢出的问题"
+      - "修正了小部件（更改全名）的文本"
+      - "修正了切换组的逻辑（代理管理器/账户管理器）"
     changes:
-      - "Launcher removed from the build"
-      - "Auto-opening logs is now 'Enabled' by default"
-      - "Added automatic proxy country detection"
-      - "Added proxy country flag in (Proxy Manager)"
-      - "Added authentication status messages"
-      - "Added the ability to run tasks on multiple accounts from the context menu (Account Manager)"
-      - "Reworked widget (Dropdown with change option)"
+      - "启动器已从构建中移除"
+      - "默认情况下，日志自动打开现已'启用'"
+      - "新增自动检测代理国家功能"
+      - "在（代理管理器）中新增代理国家旗帜"
+      - "新增身份验证状态消息"
+      - "新增从上下文菜单运行多个账户任务的功能（账户管理器）"
+      - "重新设计了小部件（带更改选项的下拉列表）"
 
-
-ch:
-  updates:
   - version: "3.0.1"
     date: "2025-02-01"
     fixed: 
@@ -123,25 +138,24 @@ ch:
       - "添加了对保存日志的多语言支持"
       - "添加了日志的自动打开功能"
 
-  - version: "3.0.2"
-    date: "2025-02-02"
-    fixed:
-      - "修复了独立更新应用程序的启动器"
-      - "修复了小部件大小（更改照片）导致文本溢出的问题"
-      - "修正了小部件（更改全名）的文本"
-      - "修正了切换组的逻辑（代理管理器/账户管理器）"
-    changes:
-      - "启动器已从构建中移除"
-      - "默认情况下，日志自动打开现已'启用'"
-      - "新增自动检测代理国家功能"
-      - "在（代理管理器）中新增代理国家旗帜"
-      - "新增身份验证状态消息"
-      - "新增从上下文菜单运行多个账户任务的功能（账户管理器）"
-      - "重新设计了小部件（带更改选项的下拉列表）"
-
-
 ru:
   updates:
+    - version: "3.0.2"
+      date: "2025-02-02"
+      fixed:
+        - "Исправлен лаунчер для автономного обновления приложения"
+        - "Исправлен размер виджета (Изменить фото) из за которого текст не помещался"
+        - "Исправлен текст для виджета (Изменить ФИО)"
+        - "Исправлена логика для смены группы (Менеджер прокси/Менеджер аккаунтов)"
+      changes:
+        - "Убран из сборки лаунчер"
+        - "Авто-открытие логов по умолчанию теперь 'Включено'"
+        - "Добавлено авто-определение страны прокси"
+        - "Добавлен флаг страны прокси в (Менеджере прокси)"
+        - "Добавлены сообщения о статусе аутентификации"
+        - "Добавлена возможность запускать задачи на несколько аккаунтов из контекстного меню (Менеджер аккаунтов)"
+        - "Переработан виджет (Выпадающий список с изменением)"
+
     - version: "3.0.1"
       date: "2025-02-01"
       fixed: 
@@ -189,20 +203,4 @@ ru:
         - "Добавлено сохранение логов в файл"
         - "Добавлена поддержжка мульти-язычности для сохранения логов"
         - "Добавлено авто-открытие логов"
-
-    - version: "3.0.2"
-      date: "2025-02-02"
-      fixed:
-        - "Исправлен лаунчер для автономного обновления приложения"
-        - "Исправлен размер виджета (Изменить фото) из за которого текст не помещался"
-        - "Исправлен текст для виджета (Изменить ФИО)"
-        - "Исправлена логика для смены группы (Менеджер прокси/Менеджер аккаунтов)"
-      changes:
-        - "Убран из сборки лаунчер"
-        - "Авто-открытие логов по умолчанию теперь 'Включено'"
-        - "Добавлено авто-определение страны прокси"
-        - "Добавлен флаг страны прокси в (Менеджере прокси)"
-        - "Добавлены сообщения о статусе аутентификации"
-        - "Добавлена возможность запускать задачи на несколько аккаунтов из контекстного меню (Менеджер аккаунтов)"
-        - "Переработан виджет (Выпадающий список с изменением)"
         
