@@ -8,22 +8,6 @@ account_stores:
 
 en:
   updates:
-  - version: "3.0.2"
-    date: "2025-02-02"
-    fixed:
-      - "Fixed launcher for standalone application updates"
-      - "Fixed widget size (Change photo) that caused text overflow"
-      - "Fixed text for widget (Change full name)"
-      - "Fixed logic for switching groups (Proxy Manager / Account Manager)"
-    changes:
-      - "Launcher removed from the build"
-      - "Auto-opening logs is now 'Enabled' by default"
-      - "Added automatic proxy country detection"
-      - "Added proxy country flag in (Proxy Manager)"
-      - "Added authentication status messages"
-      - "Added the ability to run tasks on multiple accounts from the context menu (Account Manager)"
-      - "Reworked widget (Dropdown with change option)"
-
   - version: "3.0.1"
     date: "2025-02-01"
     fixed: 
@@ -71,6 +55,22 @@ en:
       - "Added saving logs to file"
       - "Added multi-language support for saving logs"
       - "Added auto-opening of logs"
+
+  - version: "3.1.1"
+    date: "2025-02-02"
+    fixed:
+      - "Fixed launcher for standalone application updates"
+      - "Fixed widget size (Change photo) that caused text overflow"
+      - "Fixed text for widget (Change full name)"
+      - "Fixed logic for switching groups (Proxy Manager / Account Manager)"
+    changes:
+      - "Launcher removed from the build"
+      - "Auto-opening logs is now 'Enabled' by default"
+      - "Added automatic proxy country detection"
+      - "Added proxy country flag in (Proxy Manager)"
+      - "Added authentication status messages"
+      - "Added the ability to run tasks on multiple accounts from the context menu (Account Manager)"
+      - "Reworked widget (Dropdown with change option)"
 
 ch:
   updates:
@@ -121,7 +121,8 @@ ch:
       - "添加了将日志保存到文件的功能"
       - "添加了对保存日志的多语言支持"
       - "添加了日志的自动打开功能"
-  - version: "3.0.2"
+
+  - version: "3.1.1"
     date: "2025-02-02"
     fixed:
       - "修复了独立更新应用程序的启动器"
@@ -139,22 +140,6 @@ ch:
 
 ru:
   updates:
-    - version: "3.0.2"
-      date: "2025-02-02"
-      fixed:
-        - "Исправлен лаунчер для автономного обновления приложения"
-        - "Исправлен размер виджета (Изменить фото) из за которого текст не помещался"
-        - "Исправлен текст для виджета (Изменить ФИО)"
-        - "Исправлена логика для смены группы (Менеджер прокси/Менеджер аккаунтов)"
-      changes:
-        - "Убран из сборки лаунчер"
-        - "Авто-открытие логов по умолчанию теперь 'Включено'"
-        - "Добавлено авто-определение страны прокси"
-        - "Добавлен флаг страны прокси в (Менеджере прокси)"
-        - "Добавлены сообщения о статусе аутентификации"
-        - "Добавлена возможность запускать задачи на несколько аккаунтов из контекстного меню (Менеджер аккаунтов)"
-        - "Переработан виджет (Выпадающий список с изменением)"
-
     - version: "3.0.1"
       date: "2025-02-01"
       fixed: 
@@ -203,3 +188,18 @@ ru:
         - "Добавлена поддержжка мульти-язычности для сохранения логов"
         - "Добавлено авто-открытие логов"
         
+    - version: "3.1.1"
+      date: "2025-02-02"
+      fixed:
+        - "Исправлен лаунчер для автономного обновления приложения"
+        - "Исправлен размер виджета (Изменить фото) из за которого текст не помещался"
+        - "Исправлен текст для виджета (Изменить ФИО)"
+        - "Исправлена логика для смены группы (Менеджер прокси/Менеджер аккаунтов)"
+      changes:
+        - "Убран из сборки лаунчер"
+        - "Авто-открытие логов по умолчанию теперь 'Включено'"
+        - "Добавлено авто-определение страны прокси"
+        - "Добавлен флаг страны прокси в (Менеджере прокси)"
+        - "Добавлены сообщения о статусе аутентификации"
+        - "Добавлена возможность запускать задачи на несколько аккаунтов из контекстного меню (Менеджер аккаунтов)"
+        - "Переработан виджет (Выпадающий список с изменением)"
