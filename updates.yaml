@@ -72,6 +72,20 @@ en:
       - "Added the ability to run tasks on multiple accounts from the context menu (Account Manager)"
       - "Reworked widget (Dropdown with change option)"
 
+  - version: "3.1.2"
+    date: "2025-02-03"
+    fixed:
+      - "Fixed the launch of the module 'Mailing by repost'"
+      - "Fixed the modal window with notifications"
+      - "Fixed the sizes on the page 'Proxy manager'"
+      - "Fixed errors in styles"
+      - "Fixed the error with the window location after opening"
+      - "Fixed styles for the modal window 'Change group'"
+    changes:
+      - "Added the update download progress"
+      - "Added a new state of the spam block for accounts"
+      - "Added auto-opening of the folder when clicking on the path in the logs"
+
 ch:
   updates:
   - version: "3.0.1"
@@ -138,6 +152,20 @@ ch:
       - "新增从上下文菜单运行多个账户任务的功能（账户管理器）"
       - "重新设计了小部件（带更改选项的下拉列表）"
 
+  - version: "3.1.2"
+    date: "2025-02-03"
+    fixed:
+      - "修复了‘转发邮件’模块的启动问题"
+      - "修复了带有通知的模式窗口"
+      - "修复了‘代理管理器’页面的大小"
+      - "修复样式错误"
+      - "修复了打开后窗口位置的错误"
+      - "修复了‘更改组’模式窗口的样式"
+    changes:
+      - "添加更新下载进度"
+      - "为账户添加了新的垃圾邮件阻止状态"
+      - "添加在日志中单击路径时自动打开文件夹的功能"
+
 ru:
   updates:
     - version: "3.0.1"
@@ -203,3 +231,17 @@ ru:
         - "Добавлены сообщения о статусе аутентификации"
         - "Добавлена возможность запускать задачи на несколько аккаунтов из контекстного меню (Менеджер аккаунтов)"
         - "Переработан виджет (Выпадающий список с изменением)"
+
+    - version: "3.1.2"
+      date: "2025-02-03"
+      fixed:
+        - "Исправлен запуск модуля 'Рассылка репостом'"
+        - "Исправлено модальное окно с уведомлениями"
+        - "Исправлены размеры на странице 'Менеджер прокси'"
+        - "Исправлены ошибки в стилях"
+        - "Исправлена ошибка с расположением окна после открытия"
+        - "Исправлены стили для модального окна 'Сменить группу'"
+      changes:
+        - "Добавлен прогресс загрузки обновления"
+        - "Добавлено новое состояние спам-блока для аккаунтов"
+        - "Добавлено авто-открытие папки при нажатии в логах на путь"
