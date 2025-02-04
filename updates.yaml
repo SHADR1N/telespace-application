@@ -83,6 +83,7 @@ en:
       - "Fixed styles for the 'Change Group' modal window"
       - "Fixed an error in task progress calculation"
       - "Fixed an error with link validation"
+      - "Fixed table sorting, which is why data was not displayed"
     changes:
       - "Added update download progress"
       - "Added a new spam-block state for accounts"
@@ -171,6 +172,7 @@ ch:
       - "为‘带更改的邮件’模块添加了字段验证"
       - "为‘转发邮件’模块添加了字段验证"
       - "为‘通用用户收集器’模块添加了字段验证"
+      - "修复了表格排序问题，导致数据无法显示"
 
 ru:
   updates:
@@ -249,6 +251,7 @@ ru:
         - "Исправлены стили для модального окна 'Сменить группу'"
         - "Исправлена ошибка расчета прогресса выполнения задачи"
         - "Исправлена ошибка с валидацией ссылок"
+        - "Исправлена сортировка таблица, из за чего не отображались данные"
       changes:
         - "Добавлен прогресс загрузки обновления"
         - "Добавлено новое состояние спам-блока для аккаунтов"
